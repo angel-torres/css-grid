@@ -3,8 +3,26 @@
     width: 100%;
     height: 100vh;
     display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
 }
 
-.box {
+.logo {
     border: 1px solid red;
+    grid-column-start: 1; 
+    grid-column-end: 2;
+}
+
+.nav {
+    border: 1px solid green;
+    grid-column-start: 3; 
+    grid-column-end: 6;
+}
+
+.main-content {
+    border: 1px solid purple;
+    grid-column-start: 2; 
+    grid-column-end: 5;
+    grid-row-start: 2; 
+    grid-row-end: 5;
 }
