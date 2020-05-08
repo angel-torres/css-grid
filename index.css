@@ -50,10 +50,15 @@
 
 .gallery {
   border: 1px solid black;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-flow: auto;
+  gap: 10px;
+  width: 100%;
 }
 .gallery .gallery-image {
-  height: 50px;
-  width: 50px;
+  min-width: 300px;
+  max-width: 300px;
 }
 
 /*# sourceMappingURL=index.css.map */
