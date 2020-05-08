@@ -25,12 +25,12 @@
 }
 
 .main-content {
-  border: 1px solid purple;
   display: grid;
   height: 600px;
   margin-top: 20px;
   grid-template-rows: repeat(5, 1fr);
   grid-template-columns: repeat(8, 1fr);
+  gap: 5px;
 }
 .main-content .big-box {
   border: 1px solid grey;
@@ -38,11 +38,22 @@
   grid-row: 1/6;
 }
 .main-content .small-box-container {
-  border: 2px solid green;
   display: grid;
   grid-row: 1/6;
   grid-column: 7/9;
   grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
+}
+.main-content .small-box-container .box {
+  border: 1px solid maroon;
+}
+
+.gallery {
+  border: 1px solid black;
+}
+.gallery .gallery-image {
+  height: 50px;
+  width: 50px;
 }
 
 /*# sourceMappingURL=index.css.map */
