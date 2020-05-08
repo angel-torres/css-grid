@@ -29,6 +29,13 @@
   display: grid;
   height: 600px;
   margin-top: 20px;
+  grid-template-rows: repeat(5, 1fr);
+  grid-template-columns: repeat(8, 1fr);
+}
+.main-content .big-box {
+  border: 2px solid grey;
+  grid-column: 1/7;
+  grid-row: 1/6;
 }
 
 /*# sourceMappingURL=index.css.map */
