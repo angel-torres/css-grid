@@ -37,8 +37,16 @@
     grid-template-columns: repeat(8, 1fr);
 
     .big-box {
-        border: 2px solid grey;
+        border: 1px solid grey;
         grid-column: 1/7;
         grid-row: 1/6;
+    }
+
+    .small-box-container {
+        border: 2px solid green;
+        display: grid;
+        grid-row: 1/6;
+        grid-column: 7/9;
+        grid-template-rows: repeat(3, 1fr);
     }
 }
